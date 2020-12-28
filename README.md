@@ -6,3 +6,14 @@
 [![GitHub stars](https://img.shields.io/github/stars/okemamy/senegal-phone-validator)](https://github.com/okemamy/senegal-phone-validator/stargazers)
 
 A minimal module to validate Senegal phone numbers using Regular Expressions.
+
+## Install
+`npm install senegal-phone-validator --save`
+
+## Using Package
+
+const { isValidMobilePhone } = require('senegal-phone-validator')
+
+- `isValidMobilePhone(phoneNumber)` function returns a true or false for valid or invalid phone numbers
+
+const validPhone = isValidMobilePhone('+221776857298');

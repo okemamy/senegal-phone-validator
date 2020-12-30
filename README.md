@@ -12,8 +12,8 @@ A minimal module to validate Senegal phone numbers using Regular Expressions.
 
 ## Using Package
 
-const { isValidMobilePhone } = require('senegal-phone-validator')
+`const { isValidMobilePhone } = require('senegal-phone-validator')`
 
-- `isValidMobilePhone(phoneNumber)` function returns a true or false for valid or invalid phone numbers
+`isValidMobilePhone(phoneNumber)` function returns a true or false for valid or invalid phone numbers
 
-const validPhone = isValidMobilePhone('+221776857298');
+`const validPhone = isValidMobilePhone('+221776857298');`

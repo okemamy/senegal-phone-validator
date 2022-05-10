@@ -1,7 +1,7 @@
 {
   "name": "@okemamy/senegal-phone-validator",
   "description": "A minimal module to validate Senegal phone numbers.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/okemamy/senegal-phone-validator.git"
